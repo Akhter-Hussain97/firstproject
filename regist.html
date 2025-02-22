@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        header{
+            background-color: aqua;
+            align-items: center;
+            font-size: large;
+            padding: 20px;
+            margin:0px;
+        }
+        form{
+            width: 400px;
+            align-items: center;
+            text-align: center;
+            padding:20px;
+        }
+        footer{
+            background-color:aqua;
+            padding:16px;
+            text-align: center;
+        }
+       .sp input{
+        padding-left: 45%;
+       }
+        </style>
+</head>
+<body>
+        <header>
+        <nav>
+            <img src="./Images/explore.jpg" alt="explore images" height="30" width="56"/>
+            <div class="sp"><input type="text" name="search" placeholder="Search any thing">
+             <a href="home.html"><b>Home</b></a>|
+                <a href="page1.html"><b>About Us</b></a>|
+                <a href="regist.html"><b>Gallery</b></a>|
+                <a href="contact.html"><b>Contact Us</b></a>|
+                <a href="service.html"><b>Service</b></a>|
+                <a href="table.html"><b>Feedback</b></a></div>
+            </div>
+        </nav>
+        </header>
+    <section>
+       <h1>Registration Form</h1>
+       <p>First you are interested to visit in Gilgit Baltistan. Before you will submit this form.
+         You will provide me the basic information in our requirement. Please fill this form and visit the 
+        the pakeistan most beautiful province. This is a simple biodata form you will also fill the form and submit all your information
+    carefully and waiting for the first trip to the beautiful place of Pakistan like Gilgit Baltistan.</p>
+    </section>
+    <hr>
+        <form action="admin.php" method="post" width="80%" height="100%" >
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" placeholder="Enter your fullname" required>
+            </div><br>
+            <div>
+                <label for="fname">Father Name:</label>
+                <input type="text" name="fname" placeholder="Enter your fathername"  required>
+            </div><br>
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="dob" placeholder="dob" required>
+            </div><br>
+            <div>
+                <label for="CNIC">CNIC:</label>
+                <input type="number" name="number" placeholder="Enter your CNIC"  required>
+            </div><br>
+            <div>
+                <label for="Nationality">Nationality:</label>
+                <select name="nationality" >
+                    <option value=""> Select</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="India">India</option>
+                    <option value="China">China</option>
+                    <option value="USA">USA</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="Phone No">Phone No:</label>
+                <input type="number" name="number" placeholder="Enter phone number"  required>
+            </div><br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Enter your email"  required>
+            </div><br>
+            <div>
+                <label for="Gender">Gender:</label>
+             <input type="radio" name="radio" placeholder="radio" required>Male
+             <input type="radio" name="radio" placeholder="radio" required>Female
+            </div><br>
+              <div>
+                <label for="place">Place You Mark:</label>
+                   <input type="checkbox" name="Khaplu" id="khp" placeholder="place">Khaplu
+                   <input type="checkbox" name="Skardu" id="skd" placeholder="place">Skardu
+                   <input type="checkbox" name="Gilgit" id="glt" placeholder="place">Gilgit
+              </div> <br>
+           <div>
+            <label for="comment">Comment:</label>
+            <textarea name="comment" id="comment" placeholder="Enter Your Comment" width="300" height="250"></textarea>
+           </div><br>
+           <div>
+            <label for="submit">Submit</label>
+            <input type="submit" name="submit" value="Submit" id="sb" >
+           </div>
+        </form>
+    <br>
+       <footer>Copyright <span>&copy;</span> traveltogb Shirani Balti</footer>
+   
+</body>
+</html>
